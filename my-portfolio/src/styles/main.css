@@ -90,49 +90,6 @@ html, body {
 
 }
 
-/* Навигация */
-
-
-/* Темная тема */
-
-.dark-mode-btn {
-    order: 9;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    width: 51px;
-    height: 26px;
-    padding: 5px;
-    border-radius: 50px;
-    background-color: #272727;
-    
-}
-
-.dark-mode-btn::before {
-    content: "";
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    display: block;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background-color: var(--white);
-    transition: left 0.2s ease-in;
-}
-
-.dark-mode-btn--active::before {
-    left: 26px;
-}
-
-.dark-mode-btn__icon {
-    position: relative;
-    z-index: 9;
-}
-
-/* Хедер */
-
-
 
 /* Кнопка */
 
@@ -152,25 +109,6 @@ html, body {
     opacity: 0.7;
 }
 .btn:active {
-    position: relative;
-    top: 1px;
-}
-.btn-outline {
-    display: flex;
-    column-gap: 10px;
-    align-items: 10px;
-    padding: 12px 20px;
-    height: 48px;
-    border-radius: 5px;
-    border: 1px solid var(--blackpure);
-    background-color: var(--white);
-    color: var(--blackpure);
-    transition: opacity 0.2s ease-in;
-}
-.btn-outline:hover {
-    opacity: 0.7;
-}
-.btn-outline:active {
     position: relative;
     top: 1px;
 }
@@ -231,34 +169,12 @@ html, body {
     margin-top: 0.5em;
 }
 
-/* Футер */
+
 
 
 
 @media (max-width: 620px) {
     
-    /* Хедер */
-
-    .header {
-        min-height: unset;
-    }
-    .header__title {
-        font-size: 30px;
-    }
-    .header__title strong {
-        font-size: 40px;
-    }
-
-    /* Навигация */
-
-    .nav-row {
-        justify-content: space-between;
-    }
-    .dark-mode-btn {
-        order: 0;
-    }
-
-    /* Общие стили */
 
     .section {
         padding: 40px 0;
@@ -272,35 +188,10 @@ html, body {
         font-size: 30px;
     }
 
-    /* Проекты */
-
-    .project__title {
-        font-size: 22px;
-    }
-
-    /* Страница проекта */
-
     .project-details__desc {
         font-size: 22px;
         margin-bottom: 20px;
     }
-
-    /* Футер */
-
-    .footer {
-        padding: 40px 0 30px;
-    }
-    .footer__wrapper {
-        row-gap: 20px;
-    }
-    .social {
-        column-gap: 20px;
-    }
-    .social__item {
-        width: 28px;
-    }
-
-    /* Контент лист */
 
     .content-list {
         row-gap: 20px;

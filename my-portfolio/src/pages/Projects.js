@@ -9,7 +9,7 @@ export default function Projects() {
             <h2 className="title-1">Projects</h2>
             <ul className="projects" id="projects">
                 {projects.map((project, id) => {
-                    return <Project key={id} title={project.title} img={project.img}/>
+                    return <Project key={id} title={project.title} img={project.img} id={id}/>
                 })}
                 
 

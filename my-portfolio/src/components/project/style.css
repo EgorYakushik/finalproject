@@ -15,3 +15,9 @@
     letter-spacing: -0.5px;
     color: var(--project-card-text);
 }
+
+@media (max-width: 620px) {
+        .project__title {
+        font-size: 22px;
+    }
+}

@@ -5,7 +5,7 @@ import './style.css'
 
 export default function BtnGitHub({ link }) {
   return (
-    <a href={link} target="_blank" className="btn-outline">
+    <a href={link} target="_blank" rel="noreferrer" className="btn-outline">
         <img src={gitHubBlack} alt="" />
         GitHub repo
     </a>

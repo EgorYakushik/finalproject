@@ -14,7 +14,7 @@ import project06Big from './../img/projects/06-big.jpg';
 
 const projects = [
     {
-        id: 1,
+        id: 0,
         title: 'Gaming streaming portal',
         skills: 'React, Node.js, MangoDB',
         img: project01,
@@ -22,15 +22,15 @@ const projects = [
         gitHubLink: 'https://github.com/EgorYakushik'
     },
     {
-        id: 2,
+        id: 1,
         title: 'Video service',
-        skills: 'React, PHP,MySql',
+        skills: 'React, PHP, MySql',
         img: project02,
         imgBig: project02Big,
         gitHubLink: 'https://github.com/EgorYakushik'
     },
     {
-        id: 3,
+        id: 2,
         title: 'Video portal',
         skills: 'Vue JS, Node.js, MangoDB',
         img: project03,
@@ -38,7 +38,7 @@ const projects = [
         gitHubLink: 'https://github.com/EgorYakushik'
     },
     {
-        id: 4,
+        id: 3,
         title: 'Dating app',
         skills: 'React Native',
         img: project04,
@@ -46,7 +46,7 @@ const projects = [
         gitHubLink: 'https://github.com/EgorYakushik'
     },
     {
-        id: 5,
+        id: 4,
         title: 'Landing',
         skills: 'HTML, SCSS, JS',
         img: project05,
@@ -54,9 +54,9 @@ const projects = [
         gitHubLink: 'https://github.com/EgorYakushik'
     },
     {
-        id: 6,
+        id: 5,
         title: 'Gaming community',
-        skills: 'React, PHP,MySql',
+        skills: 'React, PHP, MySql',
         img: project06,
         imgBig: project06Big,
         gitHubLink: 'https://github.com/EgorYakushik'
