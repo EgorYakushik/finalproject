@@ -9,12 +9,12 @@ import Project from "./pages/Project";
 import Contacts from "./pages/Contacts";
 import Education from "./pages/Education";
 import Skills from "./pages/Skills";
-
 import ScrollToTop from "./utils/scrollToTop";
 
 function App() {
   return (
     <div className="App">
+      
       <Router>
         <ScrollToTop />
         <Nav />

@@ -16,7 +16,7 @@ font-family: 'Poppins', sans-serif; */
     --dark-bg: var(--black);
     --dark-border: var(--black-border);
     --header-text: var(--white);
-    --accent: var(--purple);
+    --accent: var(--orange);
 
     /* Светлая тема */
     --page-bg: var(--white);
@@ -36,7 +36,7 @@ font-family: 'Poppins', sans-serif; */
     --poject-card-bg: var(--black);
     --project-card-text: var(--white);
     --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
-    --accent: var(--orange);
+    --accent: var(--purple);
     --title-1: var(--accent);
 }
 
@@ -168,9 +168,6 @@ html, body {
 .content-list__item p+p {
     margin-top: 0.5em;
 }
-
-
-
 
 
 @media (max-width: 620px) {
