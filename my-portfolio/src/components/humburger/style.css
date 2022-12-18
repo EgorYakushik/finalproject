@@ -17,15 +17,11 @@
     transform: translateY(3px);
     transition: transform 0.08s;
 }
-.hamburger:active .burger2 {
-    
-}
+
 .hamburger:active .burger3 {
     transform: translateY(-3px);
     transition: transform 0.08s;
-
 }
-
 
 .burger {
     width: 20px;
