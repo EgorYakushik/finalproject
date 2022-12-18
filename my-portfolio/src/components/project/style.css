@@ -5,13 +5,16 @@
     border-radius: 10px;
     transition: opacity 0.2s ease-in;
 }
+
 .project:hover {
     opacity: 0.7;
     
 }
+
 .project__img {
     border-radius: 10px;
 }
+
 .project__title {
     padding: 15px 20px 25px;
     font-weight: 700;

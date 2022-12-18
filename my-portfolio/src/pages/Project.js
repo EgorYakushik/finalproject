@@ -4,14 +4,10 @@ import BtnGitHub from '../components/btnGitHub/BtnGitHub'
 import { projects } from '../helpers/projectsList'
 
 
-
-
-
 export default function Project() {
   const {id} = useParams();
   const project = projects[id];
   
-
   return (
     <main className="section">
         <div className="container">
@@ -21,9 +17,7 @@ export default function Project() {
                <div className="project-details__desc">
                 <p>{project.skills}</p>
                </div>
-               
                 <BtnGitHub link={project.gitHubLink}/>
-
             </div>
         </div>         
     </main>

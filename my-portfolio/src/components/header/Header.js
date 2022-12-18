@@ -23,6 +23,7 @@ export default function Header() {
           scaleMobile: 1.00,
           color: 0xffa43f,
           backgroundColor: 0x90909
+          
         })
       );
     }

@@ -30,8 +30,8 @@ font-family: 'Poppins', sans-serif; */
  /* Темная тема */
 
 .dark {
-    --page-bg: #252526;
-    --text-color: var(--white);
+    /* --page-bg: #252526; */
+    /* --text-color: var(--white); */
     --title-1: var(--white);
     --poject-card-bg: var(--black);
     --project-card-text: var(--white);
@@ -41,21 +41,23 @@ font-family: 'Poppins', sans-serif; */
 }
 
 html, body {
-    min-height: 100vh;
+    height: 100%;
     font-family: 'DM Sans', sans-serif;
     letter-spacing: -0.5px;
     background-color: var(--page-bg);
     color: var(--text-color);
 }
+
 #root {
-    min-height: 100vh;
-}
-.App {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    height: 100%;
 }
 
+.App {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
 /* Общие стили */
 
@@ -86,10 +88,9 @@ html, body {
 }
 
 .section {
+    /* height: 100%; */
     padding: 70px 0;
-
 }
-
 
 /* Кнопка */
 
@@ -105,9 +106,11 @@ html, body {
     font-weight: 500;
     transition: opacity 0.2s ease-in;
 }
+
 .btn:hover {
     opacity: 0.7;
 }
+
 .btn:active {
     position: relative;
     top: 1px;
@@ -123,7 +126,6 @@ html, body {
     row-gap: 30px;
 }
 
-
 /* Страница проекта */
 
 .project-details {
@@ -134,12 +136,14 @@ html, body {
     align-items: center;
     text-align: center;
 }
+
 .project-details__cover {
     max-width: 100%;
     margin-bottom: 40px;
     box-shadow: var(--box-shadow);
     border-radius: 10px;
 }
+
 .project-details__desc {
     margin-bottom: 30px;
     font-weight: 700;
@@ -158,21 +162,22 @@ html, body {
     text-align: center;
     row-gap: 40px;
 }
+
 .content-list a {
     color: var(--accent);
 }
+
 .content-list__item {
     font-size: 18px;
     line-height: 1.5;
 }
+
 .content-list__item p+p {
     margin-top: 0.5em;
 }
 
-
 @media (max-width: 620px) {
     
-
     .section {
         padding: 40px 0;
     }

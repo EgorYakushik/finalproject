@@ -10,9 +10,11 @@
     color: var(--blackpure);
     transition: opacity 0.2s ease-in;
 }
+
 .btn-outline:hover {
     opacity: 0.7;
 }
+
 .btn-outline:active {
     position: relative;
     top: 1px;

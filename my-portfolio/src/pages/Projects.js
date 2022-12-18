@@ -11,8 +11,6 @@ export default function Projects() {
                 {projects.map((project, id) => {
                     return <Project key={id} title={project.title} img={project.img} id={id}/>
                 })}
-                
-
             </ul>
         </div>
     </main>
