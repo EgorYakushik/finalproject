@@ -19,11 +19,9 @@ export default function Nav() {
     
     useEffect(() => {
         if (hamburgerOpen) {
-            ulRef.current.classList.add('nav-list__hamburger')
-            ulRef.current.classList.remove('nav-list')
+            ulRef.current.classList.add('isOpen')
         } else {
-            ulRef.current.classList.add('nav-list')
-            ulRef.current.classList.remove('nav-list__hamburger')
+            ulRef.current.classList.remove('isOpen')
         }
     }, [hamburgerOpen]);
 
@@ -43,27 +41,27 @@ export default function Nav() {
                     
                     <ul ref={ulRef} className="nav-list" id='ul'>
                         <li className="nav-list__item">
-                            <NavLink to="/" className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink onClick={toogleHamburger} to="/" className={({isActive}) => isActive ? activeLink : normalLink}>
                                 Home
                             </NavLink>
                         </li>
                         <li className="nav-list__item">
-                            <NavLink to="/projects" className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink onClick={toogleHamburger} to="/projects" className={({isActive}) => isActive ? activeLink : normalLink}>
                                 Projects
                             </NavLink>
                         </li>
                         <li className="nav-list__item">
-                            <NavLink to="/education" className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink onClick={toogleHamburger} to="/education" className={({isActive}) => isActive ? activeLink : normalLink}>
                                 Education
                             </NavLink>
                         </li>
                         <li className="nav-list__item">
-                            <NavLink to="/skills" className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink onClick={toogleHamburger} to="/skills" className={({isActive}) => isActive ? activeLink : normalLink}>
                                 Skills
                             </NavLink>
                         </li>
                         <li className="nav-list__item">
-                            <NavLink to="/contacts" className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink onClick={toogleHamburger} to="/contacts" className={({isActive}) => isActive ? activeLink : normalLink}>
                                 Contacts
                             </NavLink>
                         </li>

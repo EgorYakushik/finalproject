@@ -13,7 +13,7 @@ export default function Education() {
                 </li>
                 <li className="content-list__item">
                     <h2 className="title-2">Сourses</h2>
-                    <p> <a href="https://myitschool.by/">Моя-Айти-Школа:</a></p>
+                    <p> <a href="https://myitschool.by/" target='_blank' rel="noreferrer">Моя-Айти-Школа:</a></p>
                     <p>Front-end web-development: HTML, CSS, JavaScript, ReactJS, Redux, ...</p>
                 </li>
             </ul>
